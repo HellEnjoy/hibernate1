@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rpg-hibernate:war">
+    <output-path>$PROJECT_DIR$/project-hibernate-1-master/project-hibernate-1-master/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>rpg-hibernate</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rpg-hibernate-1.0.war">
+      <element id="artifact" artifact-name="rpg-hibernate:war exploded" />
+    </root>
+  </artifact>
+</component>
